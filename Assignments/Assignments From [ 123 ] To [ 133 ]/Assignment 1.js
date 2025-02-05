@@ -3,3 +3,8 @@ setOfNumbers.add(20).add(setOfNumbers.size);
 
 console.log(setOfNumbers); // Output => Set(3) {10, 20, 2}
 console.log(Array.from(setOfNumbers)[setOfNumbers.size - 1]); // Output => 2
+
+// --2 
+setOfNumbers.forEach((v) => {
+  if (v === 2) console.log(v);  // Out ==> 2
+});
